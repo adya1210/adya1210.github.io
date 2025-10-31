@@ -3,14 +3,14 @@
 
 @keyframes fullRave{
     0%{
-        background: #ff00ff;
+        background-color: #ff00ff;
     
     }
     50% {
-        background: #4b2e83;
+        background-color: #4b2e83;
     }
     100% {
-        background: #4409e6;
+        background-color: #4409e6;
     }
 }
 
@@ -21,18 +21,7 @@ body {
     color: #fff;
     animation: fullRave 2s linear infinite
 }
-@keyframes fullRave{
-    0%{
-        background: #ff00ff;
-    
-    }
-    50% {
-        background: #4b2e83;
-    }
-    100% {
-        background: #4409e6;
-    }
-}
+
 
 
 header {
