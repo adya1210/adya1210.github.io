@@ -5,11 +5,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff, #ff00ff, #00ffff, #ffff00);
-    background-size: 1200% 1200%;
-    animation: raveBackground 10s ease infinite;
     color: #fff;
+    animation: fullRave 2s linear infinite;
 }
+
 
 header {
     background-color: #4b2e83;
@@ -61,4 +60,13 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
+}
+@keyframes fullRave {
+    0% { background-color: #ff0000; }   /* Red */
+    16% { background-color: #ff9900; }  /* Orange */
+    33% { background-color: #ffff00; }  /* Yellow */
+    50% { background-color: #00ff00; }  /* Green */
+    66% { background-color: #00ffff; }  /* Cyan */
+    83% { background-color: #0000ff; }  /* Blue */
+    100% { background-color: #ff00ff; } /* Magenta */
 }
