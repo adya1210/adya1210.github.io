@@ -74,4 +74,13 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
+/* Hover state */
+a:hover {
+    text-decoration: underline; /* underline when hovering */
+    color: #ffcc00;             /* optional: change color on hover */
+}
 
+/* Visited links */
+a:visited {
+    color: #fff; /* keeps visited links white instead of purple */
+}
