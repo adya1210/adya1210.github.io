@@ -73,12 +73,4 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
-@keyframes fullRave {
-    0% { background-color: #ff0000; }   /* Red */
-    16% { background-color: #ff9900; }  /* Orange */
-    33% { background-color: #ffff00; }  /* Yellow */
-    50% { background-color: #00ff00; }  /* Green */
-    66% { background-color: #00ffff; }  /* Cyan */
-    83% { background-color: #0000ff; }  /* Blue */
-    100% { background-color: #ff00ff; } /* Magenta */
-}
+
