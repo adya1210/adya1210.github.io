@@ -6,7 +6,19 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    animation: fullRave 2s linear infinite;
+    animation: fullRave 2s linear infinite
+}
+@keyframes fullRave{
+    0%{
+        background: #98f73f;
+    
+    }
+    50% {
+        background: #fa083c;
+    }
+    100% {
+        background: #4409e6;
+    }
 }
 
 
