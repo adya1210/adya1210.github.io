@@ -1,4 +1,9 @@
 
+
+/* my github repository is at https://github.com/adya1210/adya1210.github.io
+my page can be viewed at https://adya1210.github.io/index.html
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
@@ -61,10 +66,10 @@ p {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 250px;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 footer {
