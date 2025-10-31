@@ -10,11 +10,11 @@ body {
 }
 @keyframes fullRave{
     0%{
-        background: #98f73f;
+        background: #ff00ff;
     
     }
     50% {
-        background: #fa083c;
+        background: #4b2e83;
     }
     100% {
         background: #4409e6;
