@@ -16,14 +16,14 @@ body {
 }
 @keyframes fullRave{
     0%{
-        background-color: #ff00ff;
+        background-color: #0000FF;
     
     }
     50% {
-        background-color: #4b2e83;
+        background-color: #FFFF00;
     }
     100% {
-        background-color: #4409e6;
+        background-color: #FF0000;
     }
 }
 
